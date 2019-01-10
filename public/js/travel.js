@@ -24,7 +24,7 @@ $(document).ready(function () {
     });
 
 
-    $(".box.type-cruise").on("click", function () {
+    $(".travel-box.type-cruise").on("click", function () {
         $(".card")
             .filter(function () {
                 return $(this).hasClass("type-cruise");
@@ -32,7 +32,7 @@ $(document).ready(function () {
             .toggle();
             $(".box.type-cruise").toggleClass("box-dark");
     });
-    $(".box.type-world").on("click", function () {
+    $(".travel-box.type-world").on("click", function () {
         $(".card")
             .filter(function () {
                 return $(this).hasClass("type-world");
@@ -40,7 +40,7 @@ $(document).ready(function () {
             .toggle();
             $(".box.type-world").toggleClass("box-dark");
     });
-    $(".box.type-road").on("click", function () {
+    $(".travel-box.type-road").on("click", function () {
         $(".card")
             .filter(function () {
                 return $(this).hasClass("type-road");
@@ -48,7 +48,7 @@ $(document).ready(function () {
             .toggle();
             $(".box.type-road").toggleClass("box-dark");
     });
-    $(".box.type-flight").on("click", function () {
+    $(".travel-box.type-flight").on("click", function () {
         $(".card")
             .filter(function () {
                 return $(this).hasClass("type-flight");
